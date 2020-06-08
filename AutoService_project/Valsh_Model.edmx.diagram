@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="708bde096ad74d8f91e6fa2044ae7329" Name="Diagram1">
+        <EntityTypeShape EntityType="Valsh_ProjectModel.ClientsSet" Width="1.5" PointX="8.875" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Valsh_ProjectModel.EmployesSet" Width="1.5" PointX="2.625" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Valsh_ProjectModel.OrdersSet" Width="1.5" PointX="6.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Valsh_ProjectModel.ProfessionsSet" Width="1.5" PointX="0.625" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Valsh_ProjectModel.ServicesSet" Width="1.5" PointX="5.875" PointY="4.125" IsExpanded="true" />
+        <AssociationConnector Association="Valsh_ProjectModel.FK_OrdersSet_ClientsSet" ManuallyRouted="false" />
+        <AssociationConnector Association="Valsh_ProjectModel.FK_EmployesSet_ProfessionsSet" ManuallyRouted="false" />
+        <AssociationConnector Association="Valsh_ProjectModel.FK_OrdersSet_EmployesSet" ManuallyRouted="false" />
+        <AssociationConnector Association="Valsh_ProjectModel.FK_OrdersSet_ServicesSet" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
